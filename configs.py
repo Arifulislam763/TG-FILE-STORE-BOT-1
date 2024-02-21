@@ -8,7 +8,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "cc64f8b770f0960bb418768de4126336")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5749543675:AAGQj_Fc-DwohmH3sg7HO6c45T6KJ3CiTDw")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Mirrortorrbot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-4189299586"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002005888660"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1854562225"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://loki:loki@cluster0.awgqjzk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-4189299586")
